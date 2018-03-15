@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-color: #5FE1BF;
+  overflow: auto;
+}
+
+.cat-shop {
+  float: left;
+  line-height: 50px;
+  color: #fff;
+  padding: 0px;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+ul {
+  margin: 0;
+}
+nav {
+  float: right;
+}
+
+.navlist {
+  display: inline-block;
+  line-height: 50px;
+  margin-right: 10px;
+  color: blue;
+  text-decoration: underline;
+}
