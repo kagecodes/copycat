@@ -23,6 +23,7 @@ header {
 ul {
   margin: 0;
 }
+
 nav {
   float: right;
 }
@@ -33,4 +34,100 @@ nav {
   margin-right: 10px;
   color: blue;
   text-decoration: underline;
+}
+
+.container {
+  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.home {
+  display: inline-block;
+  background-color: #105B9C;
+  overflow: auto;
+}
+
+.cat-photo {
+  float: left;
+  width: 60%;
+}
+
+img {
+  width: 100%;
+}
+
+.meowcome {
+  float: left;
+  width: 40%;
+}
+
+.meowcome h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+
+.cats {
+  background-color: #F7CF07;
+  padding: 30px 20px;
+}
+
+.cats h3 {
+  margin: 0;
+}
+
+.products {
+  background-color: #F1F1ED;
+  padding: 30px 20px;
+}
+
+.wrapper {
+  overflow: auto;
+  padding: 5px;
+}
+
+.cat-product {
+  float: left;
+  width: 33%;
+  list-style: none;
+  padding: 5px;
+}
+
+.cat-pic {
+  border: 3px solid black;
+}
+
+.about {
+  background-color: #26547C;
+  padding: 20px 30px;
+}
+
+.fun, .values, .meow {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.fun > h3, .values > h3, .meow > h3 {
+  color: #F6547F;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.about-p {
+  color: #fff;
+}
+
+footer {
+  background-color: #5FE1BF;
+  margin: 0;
+  padding: 3px 10px;
+  text-align: right;
+}
+
+footer h4 {
+  font-size: 1.25em;
+  margin: 0;
+  font-weight: 200;
 }
